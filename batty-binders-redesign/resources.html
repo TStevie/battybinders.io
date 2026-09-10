@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Patterns, charity projects, tutorials, and member resources from Batty Binders Quilt Guild.">
+  <title>Resources | Batty Binders Quilt Guild</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Batty Binders home">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+      <span>Batty Binders <small>Quilt Guild</small></span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-icon" aria-hidden="true"></span><span class="sr-only">Open navigation</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a class="is-active" href="resources.html">Resources</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#visit">Visit</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <header class="page-hero resources-hero">
+      <div>
+        <p class="eyebrow">Patterns, projects &amp; know-how</p>
+        <h1>Guild resources</h1>
+        <p>Everything members need, organized in one place and easy to use at the cutting table.</p>
+      </div>
+      <div class="hero-stitch" aria-hidden="true"><span></span><span></span><span></span></div>
+    </header>
+
+    <section class="resource-feature" aria-labelledby="charity-title">
+      <div class="feature-art" aria-hidden="true">
+        <span class="feature-square one"></span><span class="feature-square two"></span>
+        <span class="feature-square three"></span><span class="feature-square four"></span>
+      </div>
+      <div class="feature-copy">
+        <span class="card-tag">Featured · 2025-2026</span>
+        <h2 id="charity-title">Charity Quilt Projects</h2>
+        <p>See this year’s current needs and open the Walkabout with Borders pattern in its corrected two-page format.</p>
+        <a class="button button-primary" href="charity.html">Open charity projects</a>
+      </div>
+    </section>
+
+    <section class="resource-library" aria-labelledby="library-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Resource library</p><h2 id="library-title">Find what you need</h2></div>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter resources">
+        <button class="filter-button is-active" type="button" data-filter="all">All</button>
+        <button class="filter-button" type="button" data-filter="patterns">Patterns</button>
+        <button class="filter-button" type="button" data-filter="community">Community</button>
+        <button class="filter-button" type="button" data-filter="learning">Learning</button>
+      </div>
+      <div class="resource-grid">
+        <article class="resource-card" data-category="patterns">
+          <span class="resource-index">01</span>
+          <div><p class="resource-type">Pattern series</p><h3 id="block-of-the-month">Block of the Month</h3><p>Current blocks and a growing archive of guild favorites.</p></div>
+          <a class="card-arrow" href="https://www.battybinders.com/resources/block-of-the-month" target="_blank" rel="noopener" aria-label="Open Block of the Month on the current website">&rarr;</a>
+        </article>
+        <article class="resource-card" data-category="community">
+          <span class="resource-index">02</span>
+          <div><p class="resource-type">Charity sewing</p><h3>Linus Squares</h3><p>Size guidance, quilt ideas, and ways to support Linus and other charities.</p></div>
+          <a class="card-arrow" href="https://www.battybinders.com/resources/batty-squares-for-linuscharity" target="_blank" rel="noopener" aria-label="Open Linus Squares on the current website">&rarr;</a>
+        </article>
+        <article class="resource-card" data-category="learning">
+          <span class="resource-index">03</span>
+          <div><p class="resource-type">Learn together</p><h3>Classes</h3><p>Guild workshops, class details, and shared sewing challenges.</p></div>
+          <a class="card-arrow" href="https://www.battybinders.com/resources/classes" target="_blank" rel="noopener" aria-label="Open Classes on the current website">&rarr;</a>
+        </article>
+        <article class="resource-card" data-category="learning" id="tips">
+          <span class="resource-index">04</span>
+          <div><p class="resource-type">Reference shelf</p><h3>Tips, Tricks &amp; Tutorials</h3><p>Useful techniques, quilt references, and trusted links from members.</p></div>
+          <a class="card-arrow" href="https://www.battybinders.com/resources/tips-tricks-tutorials-links" target="_blank" rel="noopener" aria-label="Open Tips, Tricks and Tutorials on the current website">&rarr;</a>
+        </article>
+        <article class="resource-card" data-category="community">
+          <span class="resource-index">05</span>
+          <div><p class="resource-type">Looking back</p><h3>Past Charity Projects</h3><p>Previous quilts and projects made for neighbors in our community.</p></div>
+          <a class="card-arrow" href="https://www.battybinders.com/resources/2025-2026-charity-quilt-projects/past-charity-quiltsprojects" target="_blank" rel="noopener" aria-label="Open past charity projects on the current website">&rarr;</a>
+        </article>
+      </div>
+      <p class="empty-state" hidden>No resources match that filter.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-light" href="index.html"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span><span>Batty Binders <small>Quilt Guild</small></span></a>
+    <p>Tipp City, Ohio</p><p>&copy; <span data-current-year>2026</span> Batty Binders Quilt Guild</p>
+  </footer>
+</body>
+</html>
